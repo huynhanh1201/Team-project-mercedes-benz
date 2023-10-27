@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="assets/css/list-product.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/fontawesome/js/all.js"></script>
     <script src="assets/js/main.js"></script>
@@ -53,11 +56,11 @@
                       </li>
 
                       <li class="nav-item">
-                        <a class="list nav-link">Contract</a>
+                        <a class="list nav-link" href="contract.html">Contract</a>
                       </li>
 
                       <li class="nav-item">
-                          <a class="list nav-link">About us</a>
+                          <a class="list nav-link" href="khang.html">About us</a>
                       </li>
                   </ul>
                   <form class="d-flex" role="search">
@@ -77,7 +80,6 @@
       <div class="row">
         <header class="d-flex justify-content-center py-3 bg-black">
             <ul class="menu nav nav-pills">
-              <li class="nav-item"><a  href="#first-page" class="nav-link active" aria-current="page">All cars</a></li>
               <li class="nav-item"><a href="#sedan" class="nav-link">Sedans</a></li>
               <li class="nav-item"><a href="#diahinh" class="nav-link">SUVs</a></li>
               <li class="nav-item"><a href="#coupe" class="nav-link">Coupé </a></li>
@@ -90,7 +92,7 @@
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
     <div class="carousel-inner" style="height: 100vh;">
       <div class="carousel-item active">
-        <img id="first-page" src="assets/image/list-products/img/br.jpg" class="d-block w-100" alt="..." style="object-position: 0px -80px; object-fit: cover;">
+        <img id="first-page" src="assets/image/list-products/img/br.jpg" class="d-block w-100" alt="..." style="object-position: 0px -80px; object-fit: cover; width: 100vh;">
       </div>
     </div>
   </div>
@@ -99,53 +101,58 @@
         <div class="col-md-1"></div>
         <div  class="outstanding col md-10">
             <div class="row" >
-                <div id="sedan-1"class="row" >
-                    <p id="sedan" ></p>
+                
+                <div id="sedan"class="row" >
+                    <p class="sedan"></p>
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <h2 class="title" style="font-size: 50px;">Sedans</h2>
                     
-                    <h2 style="font-size: 50px; margin-top:150px;">Sedans</h2>
-                    <hr/>
                     <div class="col-md-4 products">
                       <!-- EQS Sedan -->
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="name card-title">EQS Sedan</h5>
-                            <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 4.839.000.000<u>đ</u><br/>(196.875 $)</p></p>                    
-                            <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-1.png" class="card-img-bottom" alt="...">
+                        <div class="card">
+                        <a class="link" href="EQS-sendan.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">EQS Sedan</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 196.875 $</p></p>                    
+                                <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-1.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
+                            <div class="info" style="margin-top: 100px;">
+                                <a href="EQS-sendan.html" class="info-text">
+                                    <i
+                                        class="fa-solid fa-book"
+                                        style="
+                                            display: inline-block;
+                                            margin-right: 8px;
+                                        "
+                                    ></i
+                                    >Learn more</a
+                                >
+                                <a href="EQS-sendan.html" class="info-text">
+                                    <i
+                                        class="fa-solid fa-car"
+                                        style="
+                                            display: inline-block;
+                                            margin-right: 8px;
+                                        "
+                                    ></i
+                                    >Configure your car</a
+                                >
+                            </div>
                         </div>
-                        <div class="info" style="margin-top: 100px;">
-                            <a href="#!" class="info-text">
-                                <i
-                                    class="fa-solid fa-book"
-                                    style="
-                                        display: inline-block;
-                                        margin-right: 8px;
-                                    "
-                                ></i
-                                >Learn more</a
-                            >
-                            <a href="#!" class="info-text">
-                                <i
-                                    class="fa-solid fa-car"
-                                    style="
-                                        display: inline-block;
-                                        margin-right: 8px;
-                                    "
-                                ></i
-                                >Configure your car</a
-                            >
-                        </div>
-                    </div>
                     </div>
                     <div id="sedan-2" class="col-md-4 products">
                       <!-- Maybach S-Class Sedan -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">Maybach S-Class Sedan</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 8.199.000.000<u>đ</u><br/>(333.576 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-2.png" class="card-img-bottom" alt="...">
-                      </div>
+                       <a class="link" href="MAYBACH S-CLASS SENDEN.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">Maybach S-Class Sedan</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 333.576 $</p></p>                   
+                            <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-2.png" class="card-img-bottom" alt="...">
+                            </div>
+                       </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="MAYBACH S-CLASS SENDEN.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -155,7 +162,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="MAYBACH S-CLASS SENDEN.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -171,13 +178,15 @@
                     <div id="sedan-3" class="col-md-4 products">
                       <!-- S-Class Sedan -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">S-Class Sedan</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 5.039.000.000<u>đ</u><br/>(205.012 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-3.png" class="card-img-bottom" alt="...">
-                      </div>
+                        <a class="link" href="S-Class Sedan.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">S-Class Sedan</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 205.012 $</p></p>                   
+                              <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-3.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="S-Class Sedan.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -187,7 +196,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="S-Class Sedan.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -207,11 +216,13 @@
                     <div class="col-md-4 products">
                       <!-- A-Class Sedan -->
                     <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">A-Class Sedan</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 2.429.000.000<u>đ</u><br/>(98.824 $)</p></p>                    
-                        <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-4.png" class="card-img-bottom" alt="...">
-                    
+                        <a class="link" href="A-class-sendan.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">A-Class Sedan</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 98.824 $</p></p>                    
+                                  <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-4.png" class="card-img-bottom" alt="...">
+                              </div>
+                        </a>
                     <div class="info">
                         <a href="A-class-sendan.html" class="info-text">
                             <i
@@ -223,7 +234,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="A-class-sendan.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -235,18 +246,20 @@
                         >
                     </div>
                   </div>
-                </div>
+                
             </div>
                     <div id="sedan-2" class="col-md-4 products">
                       <!-- C-Class Sedan -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">C-Class Sedan</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 1.599.000.000<u>đ</u><br/>(65.055 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-5.png" class="card-img-bottom" alt="...">
-                      </div>
+                        <a class="link"  href="C-lass-sendan.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">C-Class Sedan</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 65.055 $</p></p>                   
+                              <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-5.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="C-lass-sendan.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -256,7 +269,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="C-lass-sendan.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -272,13 +285,15 @@
                     <div id="sedan-3" class="col-md-4 products">
                       <!-- E-Class Sedan -->
                       <div class="card">
+                       <a class="link" href="E-class-sedan.html">
                         <div class="card-body">
-                          <h5 class="name card-title">E-Class Sedan</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 2.159.000.000<u>đ</u><br/>(87.839 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-6.png" class="card-img-bottom" alt="...">
-                      </div>
+                            <h5 class="name card-title">E-Class Sedan</h5>
+                            <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 87.839 $</p></p>                   
+                          <img loading="lazy" src="assets/image/list-products/img/sedans/sedan-6.png" class="card-img-bottom" alt="...">
+                        </div>
+                       </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="E-class-sedan.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -288,7 +303,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="E-class-sedan.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -305,19 +320,20 @@
             </div>
             <div class="row">
                 <p id="diahinh"></p>
-                  <h2 style="font-size:50px;margin-top: 150px;">SUVs</h2>
-                  <hr/>
+                  <h2 aria-colcount="diahinh" class="title" style="font-size:50px;margin-top: 150px;">SUVs</h2>
                   <div class="row" style="margin-bottom:  30px;">
                     <div id="dh-1" class="col-md-4 products">
                       <!-- Maybach GLS -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">Maybach GLS</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 8.679.000.000<u>đ</u><br/>(353.105 $)</p></p>                    
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-1.png" class="card-img-bottom" alt="...">
-                      </div>
+                        <a class="link" href="">
+                            <div class="card-body">
+                                <h5 class="name card-title">Maybach GLS</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 353.105 $</p></p>                    
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-1.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="Maybach GLS.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -327,7 +343,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="Maybach GLS.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -343,13 +359,15 @@
                     <div id="dh-1" class="col-md-4 products">
                       <!-- GLS-->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">GLS</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 5.309.000.000<u>đ</u><br/>(215.997 $)</p></p>                    
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-2.png" class="card-img-bottom" alt="...">
-                      </div>
+                        <a class="link" href="GLS.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">GLS</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 215.997 $</p></p>                    
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-2.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="GLS.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -359,7 +377,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="GLS.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -375,13 +393,15 @@
                     <div id="dh-1" class="col-md-4 products">
                       <!-- G-Clas SUV -->
                       <div class="card">
+                       <a class="link" href="G-class-sedan.html">
                         <div class="card-body">
-                          <h5 class="name card-title">G-Clas SUV</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 11.750.000.000<u>đ</u><br/>(478.049 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-3.png" class="card-img-bottom" alt="...">
-                      </div>
+                            <h5 class="name card-title">G-Clas SUV</h5>
+                            <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 478.049 $</p></p>                   
+                          <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-3.png" class="card-img-bottom" alt="...">
+                        </div>
+                       </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="G-class-sedan.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -391,7 +411,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="G-class-sedan.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -413,13 +433,15 @@
                     <div class="col-md-4 products">
                       <!-- EQB -->
                     <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">EQB</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 2.289.000.000<u>đ</u><br/>(93.128 $)</p></p>                    
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-4.png" class="card-img-bottom" alt="...">
-                    </div>
+                        <a class="link" href="EQB.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">EQB</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 93.128 $</p></p>                    
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-4.png" class="card-img-bottom" alt="...">
+                          </div>
+                        </a>
                     <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="EQB.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -429,7 +451,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="EQB.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -445,13 +467,15 @@
                     <div id="sedan-2" class="col-md-4 products">
                       <!-- EQE SUV -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">EQE SUV</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 3.999.000.000<u>đ</u><br/>(162.699 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-5.png" class="card-img-bottom" alt="...">
-                      </div>
+                        <a class="link" href="EQE-SUV.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">EQE SUV</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 162.699 $</p></p>                   
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-5.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="EQE-SUV.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -461,7 +485,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="EQE-SUV.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -477,13 +501,15 @@
                     <div id="sedan-3" class="col-md-4 products">
                       <!-- EQS SUV -->
                       <div class="card">
+                       <a class="link" href="EQS SUV.html">
                         <div class="card-body">
-                          <h5 class="name card-title">EQS SUV</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 4.999.000.000<u>đ</u><br/>(203.384 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-6.png" class="card-img-bottom" alt="...">
-                      </div>
+                            <h5 class="name card-title">EQS SUV</h5>
+                            <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 203.384 $</p></p>                   
+                          <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-6.png" class="card-img-bottom" alt="...">
+                        </div>f
+                       </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="EQS SUV.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -493,7 +519,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="EQS SUV.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -513,13 +539,15 @@
                     <div class="col-md-4 products">
                       <!-- GLA -->
                     <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">GLA</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 3.430.000.000<u>đ</u><br/>(139.550 $)</p></p>                    
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-7.png" class="card-img-bottom" alt="...">
-                    </div>
+                        <a class="link" href="GLA.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">GLA</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 139.550 $</p></p>                    
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-7.png" class="card-img-bottom" alt="...">
+                          </div>
+                        </a>
                     <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="GLA.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -529,7 +557,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="GLA.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -545,13 +573,15 @@
                     <div class="col-md-4 products">
                       <!-- GLB -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">GLB</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 2.089.000.000<u>đ</u><br/>(84.991 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-8.png" class="card-img-bottom" alt="...">
-                      </div>
+                        <a class="link" href="GLB.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">GLB</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 84.991 $</p></p>                   
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-8.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="GLB.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -561,7 +591,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="GLB.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -577,13 +607,15 @@
                     <div id="sedan-3" class="col-md-4 products">
                       <!-- GLC -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">GLC</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 1.909.000.000<u>đ</u><br/>(77.668 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-9.png" class="card-img-bottom" alt="...">
-                      </div>
+                        <a class="link" href="GLC-1.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">GLC</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 77.668 $</p></p>                   
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-9.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="GLC-1.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -593,7 +625,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="GLC-1.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -614,13 +646,15 @@
                     <div class="col-md-4 products">
                       <!-- GLC  -->
                     <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">GLC</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 2.229.000.000<u>đ</u><br/>(90.687 $)</p></p>                    
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-10.png" class="card-img-bottom" alt="...">
-                    </div>
+                        <a class="link" href="GLC-2.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">GLC</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 90.687 $</p></p>                    
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-10.png" class="card-img-bottom" alt="...">
+                          </div>
+                        </a>
                     <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="GLC-2.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -630,7 +664,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="GLC-2.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -646,13 +680,15 @@
                     <div id="sedan-2" class="col-md-4 products">
                       <!-- GLC Coupé -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5 class="name card-title">GLC Coupé</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 3.129.000.000<u>đ</u><br/>(127.303 $)</p></p>                   
-                        <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-11.png" class="card-img-bottom" alt="...">
-                      </div>
+                        <a class="link" href="GLC-Couple.html">
+                            <div class="card-body">
+                                <h5 class="name card-title">GLC Coupé</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 127.303 $</p></p>                   
+                              <img loading="lazy" src="assets/image/list-products/img/diahinh/dh-11.png" class="card-img-bottom" alt="...">
+                            </div>
+                        </a>
                       <div class="info">
-                        <a href="#!" class="info-text">
+                        <a href="GLC-Couple.html" class="info-text">
                             <i
                                 class="fa-solid fa-book"
                                 style="
@@ -662,7 +698,7 @@
                             ></i
                             >Learn more</a
                         >
-                        <a href="#!" class="info-text">
+                        <a href="GLC-Couple.html" class="info-text">
                             <i
                                 class="fa-solid fa-car"
                                 style="
@@ -680,20 +716,21 @@
             </div>
             
               <div class="row">
-                <p id="coupe"></p>
-                <h2 style="font-size:50px;margin-top: 150px;">Coupés</h2>
-                <hr/>
+                <p class="cuope" id="coupe"></p>
+                <h2  class="title" style="font-size:50px;margin-top: 150px;">Coupés</h2>
                 <div class="row">
                   <div id="dh-1" class="col-md-4 products">
                     <!-- AMG GT Coupé -->
                     <div class="card">
-                      <div class="card-body">
-                        <h5 class="name card-title">AMG GT Coupé</h5>
-                        <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 11.590.000.000<u>đ</u><br/>(11.590.000.000 $)</p></p>                    
-                      <img loading="lazy" src="assets/image/list-products/img/coupe/coupe-1.png" class="card-img-bottom" alt="...">
-                    </div>
+                      <a class="link" href="AMG GT Coupe.html">
+                        <div class="card-body">
+                            <h5 class="name card-title">AMG GT Coupé</h5>
+                            <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 8767.678 $</p></p>                    
+                          <img loading="lazy" src="assets/image/list-products/img/coupe/coupe-1.png" class="card-img-bottom" alt="...">
+                        </div>
+                      </a>
                       <div class="info">
-                          <a href="#!" class="info-text">
+                          <a href="AMG-GT4-door couple.html" class="info-text">
                               <i
                                   class="fa-solid fa-book"
                                   style="
@@ -703,7 +740,7 @@
                               ></i
                               >Learn more</a
                           >
-                          <a href="#!" class="info-text">
+                          <a href="AMG-GT4-door couple.html" class="info-text">
                               <i
                                   class="fa-solid fa-car"
                                   style="
@@ -721,7 +758,7 @@
                     <div class="card">
                       <div class="card-body">
                           <h5 class=" name card-title">AMG GT 4-door Coupé</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 6.719.000.000<u>đ</u><br/>(273.363 $)</p></p>                    
+                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 273.363 $</p></p>                    
                           <img loading="lazy" src="assets/image/list-products/img/coupe/coupe-2.png" class="card-img-bottom" alt="...">
                           <div class="info">
                               <a href="#!" class="info-text">
@@ -752,21 +789,21 @@
                 </div>
               </div>
               <div class="row">
-                <p id="dadung" ></p>
-                  <h2 style="font-size:50px;margin-top: 150px;">Vans / MPVs</h2>
-                  <hr/>
+                <p class="dadung" id="dadung" ></p>
+                  <h2 class="title" style="font-size:50px;margin-top: 150px;">Vans / MPVs</h2>
                   <div class="row">
                     <div  class="col-md-4 products">
                       <!-- V-Class -->
                       <div class="card">
-                        <div class="card-body">
-                          <h5  class="name card-title">V-Class</h5>
-                          <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 3.039.000.000<u>đ</u><br/>(123.642 $)</p></p>
-                          <div>
-                              <img loading="lazy" src="assets/image/list-products/img/dadung.png" class="card-img-bottom" alt="...">
-                          </div>
+                        <a class="link" href="V-Class.html">
+                            <div class="card-body">
+                                <h5  class="name card-title">V-Class</h5>
+                                <p class="card-text"><p class="text" style="color: rgb(191,190,190);">Price: 123.642 $</p></p>
+                                    <img loading="lazy" src="assets/image/list-products/img/dadung.png" class="card-img-bottom" alt="...">
+                              </div>
+                        </a>
                           <div class="info">
-                            <a href="#!" class="info-text">
+                            <a href="V-Class.html" class="info-text">
                                 <i
                                     class="fa-solid fa-book"
                                     style="
@@ -776,7 +813,7 @@
                                 ></i
                                 >Learn more</a
                             >
-                            <a href="#!" class="info-text">
+                            <a href="link" class="info-text">
                                 <i
                                     class="fa-solid fa-car"
                                     style="
@@ -926,7 +963,7 @@
                           <div class="logo-footer" >
                               <a
                                   class="navbar-brand"
-                                  href="#"
+                                  href="/"
                                   style="
                                       display: flex;
                                       align-items: center;
