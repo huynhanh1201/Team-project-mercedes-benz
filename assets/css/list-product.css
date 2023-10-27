@@ -53,7 +53,7 @@
     font-size: 20px;
 }
 .outstanding .info-text:hover { 
-    padding: 200px 0px 5px;
+    /* padding: 200px 0px 5px; */
     background: #ccc;
 }
 
