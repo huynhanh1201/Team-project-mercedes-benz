@@ -1,8 +1,20 @@
-
+.title{
+    margin:150px 0px 100px 0px; 
+    border-bottom: 1px solid #bbb;
+}
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.sedan, .diahinh, .coupe, .dadung{
+    margin-top: 100px;
+}
 #list{
     position: fixed;
 }
 .products .card{
+    margin-bottom: 50px;
     border: none;
     transition: .25s;
 }
@@ -13,14 +25,16 @@
     position: relative;
     border-bottom: 13px solid transparent;
 }
-.card a:hover{
-    background-color: gray;
-}
+
 .text{
-    font-size: 20px;
+   
+    font-size: 16px;
+    text-align: center;
 }
 .name{
-    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
 }
 .card{
     margin-right: 10px;
@@ -34,10 +48,11 @@
     border-bottom-left-radius: 3px;
     box-shadow: 1px 3px 10px #bbb;
     position: absolute;
-    bottom: -156px;
+    bottom: -150px;
     left: 8px;
     background: #fff;
     z-index: 1;
+    border-bottom:none !important ;
 }
 .products .info-text {
     display: block;
@@ -53,7 +68,6 @@
     font-size: 20px;
 }
 .outstanding .info-text:hover { 
-    padding: 200px 0px 5px;
     background: #ccc;
 }
 
@@ -184,7 +198,5 @@ body {
 }
 .row header .menu li:hover > a{
     color:white;
-    font-size: 20px;
-    padding: 5px;
-    opacity: 1;
+    opacity: 0.9;
 }
