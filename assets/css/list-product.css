@@ -1,42 +1,48 @@
-.title{
-    margin:150px 0px 100px 0px; 
+.title {
+    margin: 150px 0px 100px 0px;
     border-bottom: 1px solid #bbb;
 }
-.link{
+.link {
     list-style: none;
     text-decoration: none;
     color: #000;
 }
-.sedan, .diahinh, .coupe, .dadung{
+.sedan,
+.diahinh,
+.coupe,
+.dadung {
     margin-top: 100px;
 }
-#list{
+#list {
     position: fixed;
 }
-.products .card{
+.products .card {
     margin-bottom: 50px;
     border: none;
-    transition: .25s;
+    transition: 0.25s;
+    /* Huynh Anh */
+    height: 274px;
 }
-.products .card:hover{
+.products .card:hover {
     box-shadow: 1px 3px 10px #bbb;
 }
-.outstanding .products{
+.outstanding .products {
     position: relative;
     border-bottom: 13px solid transparent;
+    /* Huynh Anh */
+    height: 326px;
 }
 
-.text{
-   
+.text {
     font-size: 16px;
     text-align: center;
 }
-.name{
+.name {
     text-align: center;
     font-weight: 700;
     font-size: 20px;
 }
-.card{
+.card {
     margin-right: 10px;
 }
 /*  */
@@ -52,7 +58,7 @@
     left: 8px;
     background: #fff;
     z-index: 1;
-    border-bottom:none !important ;
+    border-bottom: none !important ;
 }
 .products .info-text {
     display: block;
@@ -61,13 +67,13 @@
     padding: 20px 20px;
     border-bottom: 2px solid #ccc;
     color: #333;
-    transition: .25s;
+    transition: 0.25s;
 }
 .products .info-text:hover {
     background: #ccc;
     font-size: 20px;
 }
-.outstanding .info-text:hover { 
+.outstanding .info-text:hover {
     background: #ccc;
 }
 
@@ -76,13 +82,13 @@
     border-bottom-left-radius: 3px;
 }
 /*  */
-.products:hover .info{
+.products:hover .info {
     border-bottom: 1px solid #333;
     margin-top: 8px;
     /* background-color: #ccc; */
     display: block;
 }
-.header-list{
+.header-list {
     margin-left: 50px;
     font-size: 4rem;
 }
@@ -193,10 +199,10 @@ body {
     margin-bottom: 15px;
 }
 /* header */
-.header .list:hover{
+.header .list:hover {
     color: #bbb;
 }
-.row header .menu li:hover > a{
-    color:white;
+.row header .menu li:hover > a {
+    color: white;
     opacity: 0.9;
 }
