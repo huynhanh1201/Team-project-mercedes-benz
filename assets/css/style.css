@@ -299,6 +299,11 @@ body {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* Header */
 .header {
     width: 100%;
@@ -421,10 +426,12 @@ body {
 .outstanding-products .card-title {
     font-size: 2rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .outstanding-products .card-text {
     color: #bbb;
+    text-align: center;
 }
 
 .outstanding-products .card-img-bottom {
@@ -457,6 +464,7 @@ body {
 }
 
 .outstanding-products .info-text:hover {
+    font-size: 2rem;
     background: #ccc;
 }
 
