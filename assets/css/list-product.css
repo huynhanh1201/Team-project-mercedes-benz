@@ -202,7 +202,4 @@ body {
 .header .list:hover {
     color: #bbb;
 }
-.row header .menu li:hover > a {
-    color: white;
-    opacity: 0.9;
-}
+
