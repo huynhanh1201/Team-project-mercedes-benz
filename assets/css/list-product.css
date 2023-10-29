@@ -202,14 +202,4 @@ body {
 .header .list:hover {
     color: #bbb;
 }
-.main-menu:hover .menu{
-    display: block;
-    transition: 4s linear;
-}
 
-.menu{
-    display: none;
-    position: sticky;
-
-}
- 
