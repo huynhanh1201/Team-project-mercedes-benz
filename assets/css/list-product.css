@@ -202,7 +202,14 @@ body {
 .header .list:hover {
     color: #bbb;
 }
-.row header .menu li:hover > a {
-    color: white;
-    opacity: 0.9;
+.main-menu:hover .menu{
+    display: block;
+    transition: 4s linear;
 }
+
+.menu{
+    display: none;
+    position: sticky;
+
+}
+ 
