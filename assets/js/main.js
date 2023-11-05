@@ -12,3 +12,18 @@ $(document).ready(function () {
         }
     });
 });
+
+
+// Huynh Anh
+
+$(document).click(function (e)
+{
+    // Đối tượng container chứa popup
+    var container = $(".modal");
+ 
+    // Nếu click bên ngoài đối tượng container thì ẩn nó đi
+    if (!container.is(e.target) && container.has(e.target).length === 0)
+    {
+        container.hide();
+    }
+});
